@@ -1,0 +1,116 @@
+/*--------
+color, font and variables setup
+--------------*/
+:root{
+  --c-navbar:  #DE3163;
+  --c-primary:pink;
+  --c-secondary: #6E2C00;
+  --c-third:rgba(255, 98, 0, 0.536);
+  --c-background:#F1948A;
+  --font-base:"poppins" sans-serif;
+
+}
+
+body{
+  font-family: var(--font-base);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+  font-weight: 600;
+}
+h3{
+  padding-top: 20px;
+}
+a{
+  text-decoration: none;
+  color: var(--c-primary);
+}
+a:hover{
+  color:var(--c-secondary)
+}
+
+.section-padding{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+}
+.section-margin{
+  margin-top: 150px;
+}
+img{
+  max-height: 100%;
+  max-width: 100%;
+  
+}
+/*--------
+Button css setup
+--------------*/
+.btn {
+  font-weight: 750 !important;
+  background-color: var(--c-primary) !important;
+}
+.btn-outline-secondary{
+  border-bottom: solid 5px !important;
+
+
+}
+
+/*--------
+Navbar  css setup
+--------------*/
+.navbar{
+  font-family: var(--font-base);
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.navbar-pink{
+  background-color:var(--c-navbar) !important;
+}
+/*--------
+Hero css setup
+--------------*/
+#Hero{
+  background-color:var(--c-background);
+  
+}
+#photo{
+  margin-left: 310px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: url(../img/home/7.jpg);
+  border-radius:25px;
+  height: 280px;
+  width: 700px;
+}
+.Herotext{
+  font-size:90px;
+  font-weight: 600;
+  margin-top: 100px;
+
+}
+#footer{
+  margin-top: 200px;
+  background-color: var(--c-primary);
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+/*--------
+About Us setup
+--------------*/
+.brand-title{
+  font-size: 65px;
+  font-weight: 700;
+  font-family: var(--font-base);
+}
+
+.brand-p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font-base);
+  
+
+
+}
